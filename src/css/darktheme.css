@@ -1,0 +1,75 @@
+header,
+input,
+button,
+textarea,
+div.card-nota,
+div.buscarNota,
+div.botaoPesquisar,
+button.criarNota,
+div.novaNotaCard,
+footer {
+  background-color: #30475e;
+  color: #FAFAFA;
+}
+
+header h1.title.darktheme {
+  background-color: #FAFAFA;
+}
+
+body,
+.conteudoNota,
+.tituloNota {
+  background-color: #222831;
+}
+
+button.cancelarNota{
+    background-color: #F05454;
+}
+
+button.criarNota {
+    background-color: #30475e;
+}
+
+button.salvarNota {
+    background-color: #E4B5A5;
+}
+
+p,
+h1,
+input.buscarNotaInput,
+i.fa-search {
+  color: #FAFAFA;
+}
+
+i.fa-search:hover{
+    color: black;
+}
+
+i.fa-edit {
+  background-color: #dddddd;
+  color:  #222831;
+}
+
+i.fa-trash {
+  background-color:#F05454;
+  color:  #222831;
+}
+
+button.criarNota p,
+button.salvarNota p, 
+button.cancelarNota p{
+    color: #FAFAFA;
+}
+
+i.fa-plus, i.fa-times, i.fa-check{
+    color:#FAFAFA;
+}
+
+footer {
+    border-top:1px solid #222831;
+}
+
+::-webkit-input-placeholder {
+    color: #eeeeee;
+ }
+  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stay Focused</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/funcionalidadesNota/novaNota.css">
+    <link rel="stylesheet" href="src/css/funcionalidadesNota/buscarNotas.css">
+    <link rel="stylesheet" href="src/css/notas.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+    <link rel="stylesheet" href="/src/css/cabecalho.css">
+    <link rel="stylesheet" href="src/css/darktheme.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Stay Focused</h1>
+    </header>
+    <main>
+        <div class="container">
+
+            <section class="funcionalidades">
+                
+                <div id="novaNota">
+                    <!-- <input class="tituloNota" type="text" id="titulo" placeholder="Entre com o título da nova...">
+               
+                    <textarea class="conteudoNota" type="text" id="conteudo" placeholder="Entre com o conteúdo da nova nota..." rows="5" cols="20" maxlength="255"required></textarea> -->
+                    
+                    <button class="criarNota" onclick="NovaNota()">
+                        <i class="fa fa-plus"></i>
+                        <p>Nova Nota</p>
+                    </button>
+                </div>
+                
+                <div class="buscarNota">
+                    
+                    <input class="buscarNotaInput" id="busca-nota" type="text" placeholder="Buscar nota..." onkeyup="BuscarNota()">
+                    
+                    <div class="botaoPesquisar">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                </div>
+            </section>
+
+            <div id="container-notas">   
+            </div>
+        </div>
+    </main>
+    <footer>
+        Todos os direitos reservados a Vinícius Porto do Sacramento &copy; 2021
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

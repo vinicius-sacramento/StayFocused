@@ -1,0 +1,123 @@
+input,
+textarea,
+button {
+  font-family: "Roboto", serif;
+  resize: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+div #novaNota {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1 / 3;
+  grid-gap: 2rem;
+
+}
+
+.novaNotaCard {
+  grid-column: 1/1;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 18rem;
+  padding: 1.5rem;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.tituloNota {
+  height: 10%;
+  padding: .8rem;
+
+  font-size: 1em;
+  font-weight: 800;
+  
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.conteudoNota {
+  height: 60%;
+  padding: .8rem;
+  
+  font-size: 1rem;
+  font-weight: 400;
+  resize: none;
+}
+
+.novaNotaButton{
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.criarNota,
+button.salvarNota {
+  height: 3rem;
+  width: 45%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 15px;
+}
+
+button.criarNota{
+  height: auto;
+  width: 3rem;
+}
+
+button.criarNota {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+button.salvarNota {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+button.cancelarNota {
+  grid-column: 2/2;
+  grid-row: 1/1;
+
+  height: 3rem;
+  width: 45%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 15px;
+}
+
+
+button.criarNota p,
+button.salvarNota p, 
+button.cancelarNota p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+i.fa-plus, i.fa-times, i.fa-check {
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+i.fa-plus{
+  font-size: 1.15rem;
+  margin-right: 0;
+}
